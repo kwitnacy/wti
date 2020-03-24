@@ -23,7 +23,7 @@ while '' in col_names:
 #     time.sleep(0.1)
 
 # 4 for
-reviews_count = 100
+reviews_count = 250
 counter = 0
 for row, _ in df.iterrows():
     obj = {x: y for x, y in zip(col_names, row)}
