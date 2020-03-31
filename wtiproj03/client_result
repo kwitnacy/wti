@@ -1,0 +1,50 @@
+url:          http://127.0.0.1:5000/ratings
+status code:  200
+headers:      {'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '430', 'Server': 'Werkzeug/1.0.0 Python/3.6.10', 'Date': 'Thu, 26 Mar 2020 11:44:49 GMT'}
+text:         {"userID": 71534, "movieID": 62049, "rating": 4, "date_day": 10, "date_month": 10, "date_year": 2008, "date_hour": 9, "date_minute": 58, "date_second": 10, "Action": 0, "Adventure": 0, "Animation": 0, "Children": 0, "Comedy": 0, "Crime": 0, "Documentary": 0, "Drama": 1, "Fantasy": 0, "Film-Noir": 0, "Horror": 0, "IMAX": 0, "Musical": 0, "Mystery": 0, "Romance": 0, "Sci-Fi": 1, "Short": 0, "Thriller": 0, "War": 0, "Western": 0}
+----------------------------------------------------------------------------------------------------
+url:          http://127.0.0.1:5000/avg-genre-ratings/all-users
+status code:  200
+headers:      {'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '637', 'Server': 'Werkzeug/1.0.0 Python/3.6.10', 'Date': 'Thu, 26 Mar 2020 11:44:57 GMT'}
+text:         {"Action": 0.2823674202136985, "Adventure": 0.2097082975883534, "Animation": 0.054173805922875, "Children": 0.07747213060339085, "Comedy": 0.3896093726259295, "Crime": 0.15517450952433268, "Documentary": 0.01519171386562381, "Drama": 0.44884513521536984, "Fantasy": 0.1126954480959516, "Film-Noir": 0.014146830637752777, "Horror": 0.08222903746853079, "IMAX": 0.0017473159123794118, "Musical": 0.042844887435454504, "Mystery": 0.0703075509760425, "Romance": 0.17910981559096678, "Sci-Fi": 0.14524811885955788, "Short": 2.3375463710761362e-06, "Thriller": 0.26583629227744804, "War": 0.053300732353278056, "Western": 0.018292469126856305}
+----------------------------------------------------------------------------------------------------
+url:          http://127.0.0.1:5000/avg-genre-ratings/78
+status code:  200
+headers:      {'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '603', 'Server': 'Werkzeug/1.0.0 Python/3.6.10', 'Date': 'Thu, 26 Mar 2020 11:44:58 GMT'}
+text:         {"Action": 0.20512820512820512, "Adventure": 0.1752136752136752, "Animation": 0.03632478632478633, "Children": 0.03205128205128205, "Comedy": 0.43162393162393164, "Crime": 0.11538461538461539, "Documentary": 0.023504273504273504, "Drama": 0.532051282051282, "Fantasy": 0.07051282051282051, "Film-Noir": 0.019230769230769232, "Horror": 0.05982905982905983, "IMAX": 0.0, "Musical": 0.02564102564102564, "Mystery": 0.05555555555555555, "Romance": 0.15384615384615385, "Sci-Fi": 0.25213675213675213, "Short": 0.0, "Thriller": 0.20512820512820512, "War": 0.11538461538461539, "Western": 0.021367521367521368}
+----------------------------------------------------------------------------------------------------
+url:          http://127.0.0.1:5000/rating
+status code:  201
+headers:      {'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '34', 'Server': 'Werkzeug/1.0.0 Python/3.6.10', 'Date': 'Thu, 26 Mar 2020 11:44:58 GMT'}
+text:         {"method": "POST", "status": "OK"}
+----------------------------------------------------------------------------------------------------
+url:          http://127.0.0.1:5000/ratings
+status code:  200
+headers:      {'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '426', 'Server': 'Werkzeug/1.0.0 Python/3.6.10', 'Date': 'Thu, 26 Mar 2020 11:44:58 GMT'}
+text:         {"userID": 78, "movieID": 903, "rating": 4, "date_day": 29, "date_month": 10, "date_year": 2006, "date_hour": 23, "date_minute": 17, "date_second": 16, "Action": 0, "Adventure": 0, "Animation": 0, "Children": 0, "Comedy": 0, "Crime": 0, "Documentary": 0, "Drama": 1, "Fantasy": 0, "Film-Noir": 0, "Horror": 0, "IMAX": 0, "Musical": 0, "Mystery": 1, "Romance": 1, "Sci-Fi": 0, "Short": 0, "Thriller": 1, "War": 0, "Western": 0}
+----------------------------------------------------------------------------------------------------
+url:          http://127.0.0.1:5000/ratings
+status code:  200
+headers:      {'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '36', 'Server': 'Werkzeug/1.0.0 Python/3.6.10', 'Date': 'Thu, 26 Mar 2020 11:44:58 GMT'}
+text:         {"method": "DELETE", "status": "OK"}
+----------------------------------------------------------------------------------------------------
+url:          http://127.0.0.1:5000/rating
+status code:  201
+headers:      {'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '34', 'Server': 'Werkzeug/1.0.0 Python/3.6.10', 'Date': 'Thu, 26 Mar 2020 11:44:58 GMT'}
+text:         {"method": "POST", "status": "OK"}
+----------------------------------------------------------------------------------------------------
+url:          http://127.0.0.1:5000/avg-genre-ratings/all-users
+status code:  200
+headers:      {'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '315', 'Server': 'Werkzeug/1.0.0 Python/3.6.10', 'Date': 'Thu, 26 Mar 2020 11:44:58 GMT'}
+text:         {"Action": 0.0, "Adventure": 0.0, "Animation": 0.0, "Children": 0.0, "Comedy": 0.0, "Crime": 0.0, "Documentary": 0.0, "Drama": 1.0, "Fantasy": 0.0, "Film-Noir": 0.0, "Horror": 0.0, "IMAX": 0.0, "Musical": 0.0, "Mystery": 1.0, "Romance": 1.0, "Sci-Fi": 0.0, "Short": 0.0, "Thriller": 1.0, "War": 0.0, "Western": 0.0}
+----------------------------------------------------------------------------------------------------
+url:          http://127.0.0.1:5000/avg-genre-ratings/103301
+status code:  200
+headers:      {'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '315', 'Server': 'Werkzeug/1.0.0 Python/3.6.10', 'Date': 'Thu, 26 Mar 2020 11:44:59 GMT'}
+text:         {"Action": 0.0, "Adventure": 0.0, "Animation": 0.0, "Children": 0.0, "Comedy": 0.0, "Crime": 0.0, "Documentary": 0.0, "Drama": 1.0, "Fantasy": 0.0, "Film-Noir": 0.0, "Horror": 0.0, "IMAX": 0.0, "Musical": 0.0, "Mystery": 1.0, "Romance": 1.0, "Sci-Fi": 0.0, "Short": 0.0, "Thriller": 1.0, "War": 0.0, "Western": 0.0}
+----------------------------------------------------------------------------------------------------
+url:          http://127.0.0.1:5000/avg-genre-ratings/78
+status code:  200
+headers:      {'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '31', 'Server': 'Werkzeug/1.0.0 Python/3.6.10', 'Date': 'Thu, 26 Mar 2020 11:44:59 GMT'}
+text:         {"status": "Database is empty"}
+----------------------------------------------------------------------------------------------------

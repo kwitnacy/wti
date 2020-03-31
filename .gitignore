@@ -1,0 +1,13 @@
+# Don't commit compressed archives
+*.zip
+*.7z
+*.tar
+
+# Don't commit documentation
+*.pdf
+
+# Don't commit tests' files. Those are mostly used to check how do some features work
+test_*.py
+
+__pycache__/
+
