@@ -37,6 +37,9 @@ def get_avg_rating_genre() -> np.array:
 
     pd.DataFrame([avg], columns=head).to_csv('/home/kwitnoncy/Documents/politechnika/wti/wtiproj04/data/avg_rating.dat', index=False, sep='\t')
 
+    print('dict:')
+    print({x: y for x, y in zip(head, avg)})
+    
     return np.array(avg)
 
 
