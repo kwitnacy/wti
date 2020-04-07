@@ -77,5 +77,5 @@ def test():
 
 
 if __name__ == '__main__':
-    app.run(threaded=False, processes=10)
+    app.run()
 
