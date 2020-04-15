@@ -22,3 +22,4 @@ print("Elementy na liscie od 2 do 4: ", redis.lrange("lista", 2, 4))
 
 
 print("usuniecie calej listy: ", redis.flushdb())
+

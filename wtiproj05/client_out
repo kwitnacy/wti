@@ -1,0 +1,50 @@
+url:          http://127.0.0.1:5000/ratings
+status code:  200
+headers:      {'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '290', 'Server': 'Werkzeug/1.0.0 Python/3.6.10', 'Date': 'Wed, 15 Apr 2020 09:19:20 GMT'}
+text:         {"Action": 103301, "Adventure": 903, "Animation": 8, "Children": 29, "Comedy": 10, "Crime": 2006, "Documentary": 23, "Drama": 17, "Fantasy": 16, "Film-Noir": 0, "Horror": 0, "IMAX": 0, "Musical": 0, "Mystery": 0, "Romance": 0, "Sci-Fi": 0, "Short": 1, "Thriller": 0, "War": 0, "Western": 0}
+----------------------------------------------------------------------------------------------------
+url:          http://127.0.0.1:5000/avg-genre-ratings/all-users
+status code:  200
+headers:      {'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '315', 'Server': 'Werkzeug/1.0.0 Python/3.6.10', 'Date': 'Wed, 15 Apr 2020 09:19:20 GMT'}
+text:         {"Action": 0.0, "Adventure": 0.0, "Animation": 0.0, "Children": 0.0, "Comedy": 0.0, "Crime": 0.0, "Documentary": 0.0, "Drama": 8.0, "Fantasy": 0.0, "Film-Noir": 0.0, "Horror": 0.0, "IMAX": 0.0, "Musical": 0.0, "Mystery": 8.0, "Romance": 8.0, "Sci-Fi": 0.0, "Short": 0.0, "Thriller": 8.0, "War": 0.0, "Western": 0.0}
+----------------------------------------------------------------------------------------------------
+url:          http://127.0.0.1:5000/avg-genre-ratings/78
+status code:  200
+headers:      {'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '331', 'Server': 'Werkzeug/1.0.0 Python/3.6.10', 'Date': 'Wed, 15 Apr 2020 09:19:20 GMT'}
+text:         {"Action": NaN, "Adventure": NaN, "Animation": NaN, "Children": NaN, "Comedy": NaN, "Crime": NaN, "Documentary": NaN, "Drama": NaN, "Fantasy": NaN, "Film-Noir": NaN, "Horror": NaN, "IMAX": NaN, "Musical": NaN, "Mystery": NaN, "Romance": NaN, "Sci-Fi": NaN, "Short": NaN, "Thriller": NaN, "War": NaN, "Western": NaN, "userID": "78"}
+----------------------------------------------------------------------------------------------------
+url:          http://127.0.0.1:5000/rating
+status code:  201
+headers:      {'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '34', 'Server': 'Werkzeug/1.0.0 Python/3.6.10', 'Date': 'Wed, 15 Apr 2020 09:19:20 GMT'}
+text:         {"method": "POST", "status": "OK"}
+----------------------------------------------------------------------------------------------------
+url:          http://127.0.0.1:5000/ratings
+status code:  200
+headers:      {'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '286', 'Server': 'Werkzeug/1.0.0 Python/3.6.10', 'Date': 'Wed, 15 Apr 2020 09:19:20 GMT'}
+text:         {"Action": 78, "Adventure": 903, "Animation": 4, "Children": 29, "Comedy": 10, "Crime": 2006, "Documentary": 23, "Drama": 17, "Fantasy": 16, "Film-Noir": 0, "Horror": 0, "IMAX": 0, "Musical": 0, "Mystery": 0, "Romance": 0, "Sci-Fi": 0, "Short": 1, "Thriller": 0, "War": 0, "Western": 0}
+----------------------------------------------------------------------------------------------------
+url:          http://127.0.0.1:5000/ratings
+status code:  200
+headers:      {'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '36', 'Server': 'Werkzeug/1.0.0 Python/3.6.10', 'Date': 'Wed, 15 Apr 2020 09:19:20 GMT'}
+text:         {"method": "DELETE", "status": "OK"}
+----------------------------------------------------------------------------------------------------
+url:          http://127.0.0.1:5000/rating
+status code:  201
+headers:      {'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '34', 'Server': 'Werkzeug/1.0.0 Python/3.6.10', 'Date': 'Wed, 15 Apr 2020 09:19:20 GMT'}
+text:         {"method": "POST", "status": "OK"}
+----------------------------------------------------------------------------------------------------
+url:          http://127.0.0.1:5000/avg-genre-ratings/all-users
+status code:  200
+headers:      {'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '315', 'Server': 'Werkzeug/1.0.0 Python/3.6.10', 'Date': 'Wed, 15 Apr 2020 09:19:20 GMT'}
+text:         {"Action": 0.0, "Adventure": 0.0, "Animation": 0.0, "Children": 0.0, "Comedy": 0.0, "Crime": 0.0, "Documentary": 0.0, "Drama": 8.0, "Fantasy": 0.0, "Film-Noir": 0.0, "Horror": 0.0, "IMAX": 0.0, "Musical": 0.0, "Mystery": 8.0, "Romance": 8.0, "Sci-Fi": 0.0, "Short": 0.0, "Thriller": 8.0, "War": 0.0, "Western": 0.0}
+----------------------------------------------------------------------------------------------------
+url:          http://127.0.0.1:5000/avg-genre-ratings/103301
+status code:  200
+headers:      {'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '335', 'Server': 'Werkzeug/1.0.0 Python/3.6.10', 'Date': 'Wed, 15 Apr 2020 09:19:20 GMT'}
+text:         {"Action": NaN, "Adventure": NaN, "Animation": NaN, "Children": NaN, "Comedy": NaN, "Crime": NaN, "Documentary": NaN, "Drama": 0.0, "Fantasy": NaN, "Film-Noir": NaN, "Horror": NaN, "IMAX": NaN, "Musical": NaN, "Mystery": 0.0, "Romance": 0.0, "Sci-Fi": NaN, "Short": NaN, "Thriller": 0.0, "War": NaN, "Western": NaN, "userID": "103301"}
+----------------------------------------------------------------------------------------------------
+url:          http://127.0.0.1:5000/avg-genre-ratings/78
+status code:  200
+headers:      {'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '331', 'Server': 'Werkzeug/1.0.0 Python/3.6.10', 'Date': 'Wed, 15 Apr 2020 09:19:20 GMT'}
+text:         {"Action": NaN, "Adventure": NaN, "Animation": NaN, "Children": NaN, "Comedy": NaN, "Crime": NaN, "Documentary": NaN, "Drama": NaN, "Fantasy": NaN, "Film-Noir": NaN, "Horror": NaN, "IMAX": NaN, "Musical": NaN, "Mystery": NaN, "Romance": NaN, "Sci-Fi": NaN, "Short": NaN, "Thriller": NaN, "War": NaN, "Western": NaN, "userID": "78"}
+----------------------------------------------------------------------------------------------------
