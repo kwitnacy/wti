@@ -133,7 +133,7 @@ class API():
 	def get_avg_rating_genre_user(self, user_ID: int = 0) -> np.array:
 		query = 'userID == ' + str(user_ID)
 		
-		data = data.query(query).to_numpy()
+		data = self.data.query(query).to_numpy()
 
 		return np.array([np.nanmean([(row[2] * row[genre + 9]) if row[genre + 9] != 0 else np.nan for row in data]) for genre in range(len(self.genres))])
 
