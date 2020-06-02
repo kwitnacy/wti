@@ -1,0 +1,23 @@
+Sprawozdanie WTI - lab 6
+
+Część 1 termin: 05.05.2020 (godz. 10.00) - z opcją oddania razem z częścią 2 (do 12.05), każdy tydzień spóźnienia -5% (liczone od 12.05)
+Część 2 termin: 12.05.2020 (godz. 10.00)  każdy tydzień spóźnienia -5% 
+
+Część 1 (80pkt)
+Zadanie 1:
+odpowiedź poprzez zrzut ekranu na działający serwer Cassandra (15%)
+Zadanie 2:
+odpowiedź poprzez zrzut ekranu po wykonaniu poleceń (15%)
+Zadanie 3:
+odpowiedź poprzez zrzut/zrzuty ekranu po wykonaniu poleceń (20%)
+Zadanie 4:
+odpowiedź poprzez wklejenie/załączenie kodu + zrzut ekranu po wykonaniu testów (30%)
+
+Część 2: (120 pkt)
+Zadanie 5:
+odpowiedź poprzez wklejenie/załączenie kodu cassandra_client (35%) oraz kodu API_logic (25%)
+Zadanie 6:
+odpowiedź poprzez wklejenie/załączenie kodów serwera Flask (25%) oraz serwera CherryPy (15%)
+Zadanie 7:
+Odpowiedź poprzez wklejenie/załączenie kodu aplikacji testowej (klienta API) + zrzut ekranu na fragment jej wykonania (20%)
+

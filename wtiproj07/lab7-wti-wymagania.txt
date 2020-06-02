@@ -1,0 +1,39 @@
+Sprawozdanie WTI - lab 7
+
+Część 1 termin: 19.05.2020 (godz. 10.00) - z opcją oddania razem z częścią 2 (do 26.05), każdy tydzień spóźnienia -5% (liczone od 26.05)
+Część 2 termin: 26.05.2020 (godz. 10.00)  każdy tydzień spóźnienia -5% 
+
+Część 1 (80pkt)
+Zadanie 1:
+odpowiedź poprzez zrzut ekranu na działający kontener ElasticSearch (8%)
+Zadanie 2-3:
+odpowiedź poprzez zrzut ekranu wyniki poleceń nodes oraz health (8%)
+Zadanie 4:
+odpowiedź poprzez zrzut ekranu na utworzenie indeksu oraz weryfikację utworzenia (8%)
+Zadanie 5:
+odpowiedź poprzez zrzut ekranu na realizację poleceń (8%)
+Zadanie 6:
+odpowiedź poprzez zrzut ekranu na realizację poleceń (15%)
+Zadanie 7:
+odpowiedź poprzez zrzut ekranu na realizację poleceń (8%)
+Zadanie 8-9:
+odpowiedź poprzez kod (jest dany) oraz zrzut ekranu na jego wykorzystanie (25%)
+
+
+Część 2: (120 pkt)
+Zadanie 10:
+odpowiedź poprzez wklejenie/załączenie kodu elasticsearch_simple_CF_client (25%) oraz zrzut ekranu na jego przykładowe uruchomienie (10%)
+Zadanie 11:
+odpowiedź poprzez wklejenie/załączenie kodu extended_elasticsearch_client (30%) oraz zrzut ekranu na jego przykładowe uruchomienie (10%)
+Zadanie 12:
+Odpowiedź poprzez wklejenie/załączenie kodu API (jest dany przykład) (10%)
+Zadanie 13:
+Odpowiedź poprzez wklejenie/załączenie kodu aplikacji testowej (klienta API) + zrzut ekranu na fragment jej wykonania (15%)
+Zadanie 17:
+odpowiedź poprzez wklejenie/załącznie kodu i prezentację przykładowego wykonania (zrzuty) (20%)-
+(uwaga: zamiast tego można wykonać zadanie dla chętnych albo jego fragment)
+
+Zadanie dla chętnych:
+Zadania 15-16:
+odpowiedź poprzez wklejenie/załącznie kodów i zrzut ekranu - proszę wyraźnie wysyłając sprawozdanie zaznaczyć, że wykonało się zadanie dla chętnych! (bonusowe 30 punktów)
+
